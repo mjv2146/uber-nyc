@@ -5,9 +5,10 @@ services:
       - POSTGRES_USER=root
       - PGUSER=root
       - POSTGRES_PASSWORD=root
-      - POSTGRES_DB=ny_taxi
+      - POSTGRES_DB=uber
+      - PGDATA=/tmp
     volumes:
-      - "./sql_data:/var/lib/postgresql/data:rw"
+      - "./sql:/var/lib/postgresql/data:rw"
     ports:
       - "5432:5432"
   pgadmin:
@@ -17,3 +18,4 @@ services:
       - PGADMIN_DEFAULT_PASSWORD=root
     ports:
       - "8080:80"
+    
