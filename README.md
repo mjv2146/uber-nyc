@@ -9,3 +9,6 @@ NYC [High Volume for Hire Vehicle Records](https://www.nyc.gov/site/tlc/about/tl
 ### Tools
 - PostgreSQL - Exploratory data analysis and cleaning.
 - Docker - containerizing and hosting SQL database.
+
+### Notebooks
+[EDA](./notebooks/02_EDA.ipynb)
