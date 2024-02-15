@@ -1,6 +1,7 @@
 data/
 sql/
 tableau_data/
+tableau/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
