@@ -11,6 +11,7 @@ I consider two questions for the data:
 - Relative to Lyft, Uber pays drivers more per mile and minute of driving, even after accounting for tips.
 - Customers are significantly more likely to tip on Lyft rides.
 - Driver pay is highest at late night and lowest in the evening.
+- Drivers are more likely to receive a tip if they arrive *early* relative to the average wait time in the pickup location.
 
 **Inflows and Outflows**
 1. Locations vary significantly in their inflow and outflow rate.
@@ -26,10 +27,10 @@ NYC [High Volume for Hire Vehicle Records](https://www.nyc.gov/site/tlc/about/tl
 - Python (Pandas, matplotlib, seaborn) - data exploration
 
 ### Notebooks
-| Notebook                                                  | Description                                      |
-| --------------------------------------------------------- | ------------------------------------------------ |
-| [Load Data](./notebooks/01_load_data.ipynb)               | Load data into PostgreSQL database               |
-| [EDA](./notebooks/02_EDA.ipynb)                           | Initial EDA                                      |
-| [Python - EDA](./notebooks/02_pythonEDA.ipynb)                           | Stronger graphical EDA using python|
-| [Platform](./notebooks/02_platform.ipynb)                 | How rides differ based on platform (Uber, Lyft).              |
+| Notebook                                                    | Description                                      |
+| ----------------------------------------------------------- | ------------------------------------------------ |
+| [Load Data](./notebooks/01_load_data.ipynb)                 | Load data into PostgreSQL database               |
+| [EDA](./notebooks/02_EDA.ipynb)                             | Initial EDA                                      |
+| [Python - EDA](./notebooks/02_pythonEDA.ipynb)              | Stronger graphical EDA using python              |
+| [Driver Pay](./notebooks/02_driverpay.ipynb)                | Determinants of Driver Pay.                      |
 | [Inflows - Outflows](./notebooks/02_inflows_outflows.ipynb) | Study of inflows and outflows based on location. |
