@@ -1,13 +1,20 @@
 # Uber
 - This project studies New York for hire vehicle data.
 
-
 ### Tasks
-- I approach this problem from the perspective of a driver that wants to maximize their pay.
+I consider two questions for the data:
+1. I study the determinants of driver pay.
+2. I study how locations differ in their inflows and outflows.
 
 ### Findings
+**Driver Pay**
 - Relative to Lyft, Uber pays drivers more per mile and minute of driving, even after accounting for tips.
-- Customers are more likely to tip on Lyft rides.
+- Customers are significantly more likely to tip on Lyft rides.
+- Driver pay is highest at late night and lowest in the evening.
+
+**Inflows and Outflows**
+1. Locations vary significantly in their inflow and outflow rate.
+2. Parks and airpots have the highest percentage of outflows.
 
 
 ### Data
