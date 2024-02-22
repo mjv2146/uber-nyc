@@ -1,10 +1,10 @@
-# Uber
+# Uber Data Analysis
 - This project studies New York for hire vehicle data.
 
 ### Tasks
-I consider two questions for the data:
-1. I study the determinants of driver pay.
-2. I study how locations differ in their inflows and outflows.
+I perform two analyses of the data:
+1. What determines driver pay.
+2. How locations differ in their inflows and outflows.
 
 ### Findings
 **Driver Pay**
@@ -16,7 +16,6 @@ I consider two questions for the data:
 **Inflows and Outflows**
 1. Locations vary significantly in their inflow and outflow rate.
 2. Parks and airpots have the highest percentage of outflows.
-
 
 ### Data
 NYC [High Volume for Hire Vehicle Records](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)
